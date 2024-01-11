@@ -41,8 +41,12 @@ afterEvaluate {
             register("release",MavenPublication){
                 groupId = 'com.github.congcuong175'
                 artifactId = 'TestLib'
-                version = '1.0.6'
+                version = '1.0.7'
+
             }
+        }
+        repositories {
+            mavenLocal()
         }
     }
 }
